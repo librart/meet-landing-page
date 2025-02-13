@@ -152,9 +152,11 @@ header {
 }
 
 .btn {
+  font: 900 1rem var(--ff);
   padding: 16px 40px;
   border: none;
   border-radius: 29px;
+  color: var(--white);
 }
 
 .btn-blue {
@@ -165,12 +167,6 @@ header {
 .btn-blue:focus {
   cursor: pointer;
   background-color: #71c0d4;
-}
-
-a {
-  text-decoration: none;
-  font: 900 1rem var(--ff);
-  color: var(--white);
 }
 
 .blue {
